@@ -27,7 +27,7 @@ public:
 
 private:
     std::string value;
-    int         *count;
+    int         *count; //Page 516 didn't say this is pointer
     TreeNode    *left;
     TreeNode    *right;
 };
